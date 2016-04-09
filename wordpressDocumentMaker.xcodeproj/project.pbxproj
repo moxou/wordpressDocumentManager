@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7D946861CB8DDB900687D96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D946851CB8DDB900687D96 /* AppDelegate.swift */; };
+		D7D946881CB8DDB900687D96 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D946871CB8DDB900687D96 /* Document.swift */; };
+		D7D9468B1CB8DDB900687D96 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D946891CB8DDB900687D96 /* Document.xib */; };
+		D7D9468E1CB8DDB900687D96 /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D7D9468C1CB8DDB900687D96 /* Document.xcdatamodeld */; };
+		D7D946901CB8DDB900687D96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7D9468F1CB8DDB900687D96 /* Assets.xcassets */; };
+		D7D946931CB8DDB900687D96 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D946911CB8DDB900687D96 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D7D946821CB8DDB900687D96 /* wordpressDocumentMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordpressDocumentMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7D946851CB8DDB900687D96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7D946871CB8DDB900687D96 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		D7D9468A1CB8DDB900687D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		D7D9468D1CB8DDB900687D96 /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		D7D9468F1CB8DDB900687D96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7D946921CB8DDB900687D96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		D7D946941CB8DDB900687D96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7D9467F1CB8DDB900687D96 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7D946791CB8DDB900687D96 = {
+			isa = PBXGroup;
+			children = (
+				D7D946841CB8DDB900687D96 /* wordpressDocumentMaker */,
+				D7D946831CB8DDB900687D96 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7D946831CB8DDB900687D96 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7D946821CB8DDB900687D96 /* wordpressDocumentMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7D946841CB8DDB900687D96 /* wordpressDocumentMaker */ = {
+			isa = PBXGroup;
+			children = (
+				D7D946851CB8DDB900687D96 /* AppDelegate.swift */,
+				D7D946871CB8DDB900687D96 /* Document.swift */,
+				D7D946891CB8DDB900687D96 /* Document.xib */,
+				D7D9468F1CB8DDB900687D96 /* Assets.xcassets */,
+				D7D946911CB8DDB900687D96 /* MainMenu.xib */,
+				D7D946941CB8DDB900687D96 /* Info.plist */,
+				D7D9468C1CB8DDB900687D96 /* Document.xcdatamodeld */,
+			);
+			path = wordpressDocumentMaker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7D946811CB8DDB900687D96 /* wordpressDocumentMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7D946971CB8DDB900687D96 /* Build configuration list for PBXNativeTarget "wordpressDocumentMaker" */;
+			buildPhases = (
+				D7D9467E1CB8DDB900687D96 /* Sources */,
+				D7D9467F1CB8DDB900687D96 /* Frameworks */,
+				D7D946801CB8DDB900687D96 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wordpressDocumentMaker;
+			productName = wordpressDocumentMaker;
+			productReference = D7D946821CB8DDB900687D96 /* wordpressDocumentMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7D9467A1CB8DDB900687D96 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "___moxsoft___";
+				TargetAttributes = {
+					D7D946811CB8DDB900687D96 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D7D9467D1CB8DDB900687D96 /* Build configuration list for PBXProject "wordpressDocumentMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7D946791CB8DDB900687D96;
+			productRefGroup = D7D946831CB8DDB900687D96 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7D946811CB8DDB900687D96 /* wordpressDocumentMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7D946801CB8DDB900687D96 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D946901CB8DDB900687D96 /* Assets.xcassets in Resources */,
+				D7D9468B1CB8DDB900687D96 /* Document.xib in Resources */,
+				D7D946931CB8DDB900687D96 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7D9467E1CB8DDB900687D96 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7D9468E1CB8DDB900687D96 /* Document.xcdatamodeld in Sources */,
+				D7D946881CB8DDB900687D96 /* Document.swift in Sources */,
+				D7D946861CB8DDB900687D96 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D7D946891CB8DDB900687D96 /* Document.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7D9468A1CB8DDB900687D96 /* Base */,
+			);
+			name = Document.xib;
+			sourceTree = "<group>";
+		};
+		D7D946911CB8DDB900687D96 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7D946921CB8DDB900687D96 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7D946951CB8DDB900687D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D7D946961CB8DDB900687D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D7D946981CB8DDB900687D96 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = wordpressDocumentMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moxsoft.wordpressDocumentMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D7D946991CB8DDB900687D96 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = wordpressDocumentMaker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = moxsoft.wordpressDocumentMaker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7D9467D1CB8DDB900687D96 /* Build configuration list for PBXProject "wordpressDocumentMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D946951CB8DDB900687D96 /* Debug */,
+				D7D946961CB8DDB900687D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7D946971CB8DDB900687D96 /* Build configuration list for PBXNativeTarget "wordpressDocumentMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D946981CB8DDB900687D96 /* Debug */,
+				D7D946991CB8DDB900687D96 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D7D9468C1CB8DDB900687D96 /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D7D9468D1CB8DDB900687D96 /* Document.xcdatamodel */,
+			);
+			currentVersion = D7D9468D1CB8DDB900687D96 /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D7D9467A1CB8DDB900687D96 /* Project object */;
+}
