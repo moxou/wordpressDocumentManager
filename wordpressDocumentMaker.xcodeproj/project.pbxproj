@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D754DD701CBFBD2B00CD2527 /* javascriptTest.js in Resources */ = {isa = PBXBuildFile; fileRef = D754DD6F1CBFBD2B00CD2527 /* javascriptTest.js */; };
+		D754DD721CBFE27900CD2527 /* CoC Charac.html in Resources */ = {isa = PBXBuildFile; fileRef = D754DD711CBFE27900CD2527 /* CoC Charac.html */; };
+		D754DD741CC439D400CD2527 /* PreferenceWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = D754DD731CC439D400CD2527 /* PreferenceWindow.xib */; };
+		D754DD761CC43DA800CD2527 /* WDMPreferenceWindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D754DD751CC43DA800CD2527 /* WDMPreferenceWindowManager.swift */; };
 		D7D946861CB8DDB900687D96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D946851CB8DDB900687D96 /* AppDelegate.swift */; };
 		D7D946881CB8DDB900687D96 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7D946871CB8DDB900687D96 /* Document.swift */; };
 		D7D9468B1CB8DDB900687D96 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D946891CB8DDB900687D96 /* Document.xib */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D754DD6F1CBFBD2B00CD2527 /* javascriptTest.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = javascriptTest.js; sourceTree = "<group>"; };
+		D754DD711CBFE27900CD2527 /* CoC Charac.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "CoC Charac.html"; sourceTree = "<group>"; };
+		D754DD731CC439D400CD2527 /* PreferenceWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PreferenceWindow.xib; sourceTree = "<group>"; };
+		D754DD751CC43DA800CD2527 /* WDMPreferenceWindowManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WDMPreferenceWindowManager.swift; sourceTree = "<group>"; };
 		D7D946821CB8DDB900687D96 /* wordpressDocumentMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wordpressDocumentMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7D946851CB8DDB900687D96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D7D946871CB8DDB900687D96 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
@@ -37,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D754DD6E1CBFBCCF00CD2527 /* Javascript & HTML */ = {
+			isa = PBXGroup;
+			children = (
+				D754DD6F1CBFBD2B00CD2527 /* javascriptTest.js */,
+				D754DD711CBFE27900CD2527 /* CoC Charac.html */,
+			);
+			name = "Javascript & HTML";
+			sourceTree = "<group>";
+		};
 		D7D946791CB8DDB900687D96 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +73,7 @@
 		D7D946841CB8DDB900687D96 /* wordpressDocumentMaker */ = {
 			isa = PBXGroup;
 			children = (
+				D754DD6E1CBFBCCF00CD2527 /* Javascript & HTML */,
 				D7D946851CB8DDB900687D96 /* AppDelegate.swift */,
 				D7D946871CB8DDB900687D96 /* Document.swift */,
 				D7D946891CB8DDB900687D96 /* Document.xib */,
@@ -63,6 +81,8 @@
 				D7D946911CB8DDB900687D96 /* MainMenu.xib */,
 				D7D946941CB8DDB900687D96 /* Info.plist */,
 				D7D9468C1CB8DDB900687D96 /* Document.xcdatamodeld */,
+				D754DD731CC439D400CD2527 /* PreferenceWindow.xib */,
+				D754DD751CC43DA800CD2527 /* WDMPreferenceWindowManager.swift */,
 			);
 			path = wordpressDocumentMaker;
 			sourceTree = "<group>";
@@ -128,6 +148,9 @@
 				D7D946901CB8DDB900687D96 /* Assets.xcassets in Resources */,
 				D7D9468B1CB8DDB900687D96 /* Document.xib in Resources */,
 				D7D946931CB8DDB900687D96 /* MainMenu.xib in Resources */,
+				D754DD701CBFBD2B00CD2527 /* javascriptTest.js in Resources */,
+				D754DD721CBFE27900CD2527 /* CoC Charac.html in Resources */,
+				D754DD741CC439D400CD2527 /* PreferenceWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +162,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D7D9468E1CB8DDB900687D96 /* Document.xcdatamodeld in Sources */,
+				D754DD761CC43DA800CD2527 /* WDMPreferenceWindowManager.swift in Sources */,
 				D7D946881CB8DDB900687D96 /* Document.swift in Sources */,
 				D7D946861CB8DDB900687D96 /* AppDelegate.swift in Sources */,
 			);
@@ -255,7 +279,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = wordpressDocumentMaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = moxsoft.wordpressDocumentMaker;
+				PRODUCT_BUNDLE_IDENTIFIER = moxsoft.WDM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -267,7 +291,7 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = wordpressDocumentMaker/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = moxsoft.wordpressDocumentMaker;
+				PRODUCT_BUNDLE_IDENTIFIER = moxsoft.WDM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -291,6 +315,7 @@
 				D7D946991CB8DDB900687D96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

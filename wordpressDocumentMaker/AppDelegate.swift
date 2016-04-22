@@ -10,10 +10,16 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
+//    var myPreferenceWindowManager : WDMPreferenceWindowManager?
 
-
-
+/*    @IBAction func showPreference(sender: AnyObject) {
+        myPreferenceWindowManager!.ShowPreferencePanel()
+    }
+*/
     func applicationDidFinishLaunching(aNotification: NSNotification) {
+//        let newPreferenceWindowManager = WDMPreferenceWindowManager()
+//        newPreferenceWindowManager.showWindow(self)
+//        myPreferenceWindowManager = newPreferenceWindowManager
         // Insert code here to initialize your application
     }
 
