@@ -17,29 +17,6 @@ class WDMPreferenceWindowManager: NSWindowController {
     
     private var userDefaults: NSUserDefaults!
     
-/*
-    convenience init() {
-        Swift.print(#file, #function)
-        self.init(windowNibName: "PreferenceWindow")
-    }
-
-    override var windowNibName: String? {
-        Swift.print(#file, #function)
-        return "PreferenceWindow"
-    }
-
-    override init(window: NSWindow!)
-    {
-        super.init(window: window)
-        Swift.print(#file, #function)
-    }
-    
-    required init?(coder: (NSCoder!))
-    {
-        super.init(coder: coder)
-        Swift.print(#file, #function)
-    }
-*/
     override func windowDidLoad() {
         userDefaults = NSUserDefaults.standardUserDefaults()
         super.windowDidLoad()
